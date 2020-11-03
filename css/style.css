@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+img	{
+	max-width: 100%;
+}
+
+li	{
+	list-style: none;
+}
+a	{
+	text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pad-y{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.col-4{
+    padding: 15px;
+    width: 25%;
+}
+.col-3{
+    width: 33.33%;
+    padding: 15px;
+}
+.heading{
+    text-align: center;
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/*******Banner-sec**********/
+.banner-sec{
+    background: #f0fff0;
+}
+header{background:#F0FFF0 }
+.logo{
+    width: 15%;
+    padding: 15px;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 85%;
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a{padding: 10px 20px;color: #39393B;font-size: 20px;display: block;}
+nav ul li a:hover{
+	background: #21B573;
+	border-radius: 30px;
+	color: #fff;
+}
+.banner-content{
+    width: 45%;
+    padding: 15px;
+}
+.banner-content span{
+    color: #DF615C;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.banner-content p{
+    font-size: 22px;
+    line-height: 1.2;
+    color: #3a3434;
+}
+h1{
+    font-size: 75px;
+    padding-right: 30px;
+    line-height: 1;
+}
+h1 span{
+    color: #21895E!important;
+    font-size: 75px!important;
+    letter-spacing: 2px!important;
+}
+.button{
+    padding: 10px 20px;
+    /* color: #39393B; */
+    font-size: 20px;
+    background: #21B573;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+}
+.button:hover{}
+.banner-image{width: 55%;padding: 15px;}
+.banner-image img{}
+
+/**********feature-sec************/
+
+.feature-sec{
+    margin: 50px;
+}
+.features{
+    padding: 40px 30px;
+    background: #f0fff0;
+    text-align: center;
+    border-radius: 10px;
+   
+    transition-duration: 0.3s;
+}
+.features img{height: 80px;
+}
+.features h3{
+    font-size: 22px;
+    color: #39393B;
+    margin: 8px 0;
+}
+.features p{
+    margin: 0;
+    font-size: 16px;
+}
+.features:hover{
+    padding: 40px 30px;
+    background: #f0fff0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 7px 40px 0px #0000006e;
+    
+}
+
+
+
+/***********course-sec***********/
+
+.course-sec{}
+.course{}
+.course img{}
+.course h3{
+    font-size: 22px;
+    color: #39393B;
+    margin: 8px 0;
+}
+.course span{}
+.course ul{}
+.course ul li{}
+.course ul li i{}
+
+/***********testimonial-sec***********/
+
+.testimonial-sec{}
+.client-img{}
+.client-img img{}
+.client-content{}
+.client-content p{}
+
+
+
+/***********footer***********/
+
+
+footer{}
+footer p{}
+footer ul{}
+footer ul li {}
+footer ul li a{}
+footer ul li a:hover{}
+footer .copy{
+    text-align: center;
+    padding: 30px 0 10px;
+}
+.feature img{}
+.feature h3{}
+.feature p{}
+.feature:hover{}
+
+
+
+/***********course-sec***********/
+
+.course-sec{
+    margin: 50px;
+}
+.course{
+    box-shadow: 1px 7px 40px 0px #0000006e;
+    border-radius: 15px;
+    padding: 15px;
+}
+.course img{}
+.course h3{}
+.course span{
+    margin-bottom: 20px;
+    color: #3e3838;
+    font-size: 20px;
+    display: block;
+    /* letter-spacing: 1px; */
+}
+.course ul{
+    margin-top: 15px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.course ul li{}
+.course ul li i{}
+
+/***********testimonial-sec***********/
+
+.testimonial-sec{
+    padding: 15px;
+    margin-bottom: 50px;
+}
+.testimonial-sec .container{
+	justify-content: center;
+	align-items: center;
+}
+.client-img{
+    width: 13%;
+    padding: 15px;
+}
+.client-img img{}
+.client-content{
+    width:60%;
+    padding: 15px;
+}
+.client-content p{
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+
+
+/***********footer***********/
+
+
+footer{
+    background: #211e1e;
+    color: #fff;
+    padding-top: 40px;
+}
+footer p{}
+footer ul{}
+footer ul li strong{
+    font-size: 20px;
+    /* padding: 12px 0; */
+}
+footer ul li a{
+    font-size: 16px;
+    color: #fff;
+    padding: 3px 0;
+    display: block;
+}
+footer ul li a:hover{}
+footer .copy{}
